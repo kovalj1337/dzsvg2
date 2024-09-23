@@ -1,0 +1,68 @@
+.border{
+    border: 2px dashed #ccc;
+    padding: 4px;
+}
+.the-breacking{
+    fill: orange;
+    animation: firsttext 10s ease alternate infinite;
+}
+.bad{
+    animation: bad 3s ease alternate infinite;
+}
+.fon{
+    animation: fon 2s linear infinite;
+}
+@keyframes bad {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
+@keyframes fon {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-100px,0);
+    }
+}
+@keyframes firsttext {
+    0%{
+        fill: orange;
+    }
+    10%{
+        fill: red;
+    }
+    20%{
+        fill: darkred;
+    }
+    30%{
+        fill: darkblue;
+    }
+    40%{
+        fill: blue;
+    }
+    50%{
+        fill: purple;
+    }
+    60%{
+        fill: darkmagenta;
+    }
+    70%{
+        fill: pink;
+    }
+    80%{
+        fill: darkviolet;
+    }
+    90%{
+        fill: darkred;
+    }
+    100%{
+        fill: brown;
+    }
+}
